@@ -1,0 +1,4 @@
+[submodule "libs/screen_capture_lite"]
+	path = libs/screen_capture_lite
+	url = https://github.com/commandblock2/screen_capture_lite.git
+	branch = master
