@@ -4,7 +4,7 @@ project(stick_fight_the_game_handicap_helperxd)
 
 find_package(OpenCV REQUIRED)
 
-add_executable(stick_fight_the_game_handicap_helperxd main.cpp)
+add_subdirectory(src)
 
 target_link_libraries(stick_fight_the_game_handicap_helperxd ${OpenCV_LIBS})
 
